@@ -42,7 +42,7 @@
                     <tr>
                     <td>{{$professeur->nom}}</td>
                     <td>{{$professeur->prenom}}</td>
-                    <td><img class="rounded-circle mt-5" width="100px" src="/storage/{{$professeur->image}}"/></td>
+                    <td><img class="rounded-circle mt-3" width="100px" src="/storage/{{$professeur->image}}"/></td>
                     <td><a href="/storage/{{$professeur->Dossier_scientifique}}" class="text-success"  download>Download A</a><b> -- </b>  <b class="text-danger 1remmd">     {{$professeur->etat_ds}}</b></td>
                     <td><a href="/storage/{{$professeur->Dossier_Pedagogique}}" class="text-success" download>Download B</a><b> -- </b>  <b class="text-danger 1remmd">      {{$professeur->etat_dp}}</b></td>
                     <td><a href="/storage/{{$professeur->Dossier_administratif}}" class="text-success" download>Download C</a><b> -- </b>  <b class="text-danger 1remmd"> {{$professeur->etat_da}}</b></td>
